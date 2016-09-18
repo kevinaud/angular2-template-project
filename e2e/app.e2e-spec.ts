@@ -1,6 +1,6 @@
 import { NgFinalPage } from './app.po';
 
-describe('ng-final App', function() {
+describe('angular2-template-project App', function() {
   let page: NgFinalPage;
 
   beforeEach(() => {
