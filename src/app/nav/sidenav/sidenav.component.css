@@ -1,0 +1,27 @@
+md-sidenav-layout {
+    height: 100%;
+}
+
+md-sidenav {
+    width: 20%;
+    min-width: 200px;
+}
+
+.sidenav-item {
+  width: 100%;
+}
+
+.sidenav-item-box {
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+.close-sidenav-btn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.selected {
+  background: #E0F2F1;
+  color: #00897B;
+}
