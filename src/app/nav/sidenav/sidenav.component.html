@@ -1,12 +1,15 @@
 <md-sidenav-layout>
 
-    <md-sidenav [opened]="sidenavOpen">
+    <md-sidenav #sidenav [opened]="sidenavOpen" (open)="open()" (close)="closed()">
 
       <div class="row center-xs">
         <div class="col-xs-12">
 
           <div class="box sidenav-item-box">
-            <button md-mini-fab class="md-24 md-primary close-sidenav-btn" (click)="close()"><md-icon>keyboard_arrow_left</md-icon></button>
+            <button md-mini-fab class="md-24 md-primary close-sidenav-btn" 
+              (click)="close(sidenav)">
+              <md-icon>keyboard_arrow_left</md-icon>
+            </button>
           </div>
 
         </div>

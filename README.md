@@ -1,13 +1,8 @@
-# NgFinal
+# Angular 2 Template Project - Kevin Aud
+
+Basic application built with Angular 2 that can easily be extended and repurposed. Meant to save time so that thing like navigation, routing, angular material, etc. don't need to be reimplemented everytime I start a new project.
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.14.
-
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
 ## Build
 

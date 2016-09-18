@@ -27,8 +27,12 @@ export class SidenavComponent implements OnInit {
     this.sidenavOpen = true;
   }
 
-  close() {
-      this.sidenavOpen = false;
+  close(sidenav) {
+    sidenav.close();
+  }
+
+  closed(event) {
+    this.sidenavOpen = false;
   }
 
 }
