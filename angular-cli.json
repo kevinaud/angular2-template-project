@@ -1,7 +1,7 @@
 {
   "project": {
     "version": "1.0.0-beta.14",
-    "name": "ng-final"
+    "name": "angular2-template-project"
   },
   "apps": [
     {
